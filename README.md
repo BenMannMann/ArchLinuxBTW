@@ -58,10 +58,10 @@ Uncomment the following lines in /etc/pacman.conf
 
 
 ## Helpful Links:
-Setting up SecureBoot: https://web.archive.org/web/20250116185859/https://www.reddit.com/r/archlinux/comments/10pq74e/my_easy_method_for_setting_up_secure_boot_with/
-Gamescope - Useful launch options for Steam games: https://wiki.archlinux.org/title/Gamescope
-Wine application compatibility: https://appdb.winehq.org/
-LINE with Wine: https://appdb.winehq.org/objectManager.php?sClass=application&iId=13986
-Musicbee with Wine: https://appdb.winehq.org/objectManager.php?sClass=application&iId=11732
-Rekordbox with Wine: https://appdb.winehq.org/objectManager.php?sClass=application&iId=12290
-Ricing Videos from typecraft: https://www.youtube.com/watch?v=2CP_9-jCV6A https://www.youtube.com/watch?v=KA1jv40q9lQ https://www.youtube.com/watch?v=omhJMH9lPPc
+- Setting up SecureBoot: https://web.archive.org/web/20250116185859/https://www.reddit.com/r/archlinux/comments/10pq74e/my_easy_method_for_setting_up_secure_boot_with/
+- Gamescope - Useful launch options for Steam games: https://wiki.archlinux.org/title/Gamescope
+- Wine application compatibility: https://appdb.winehq.org/
+- LINE with Wine: https://appdb.winehq.org/objectManager.php?sClass=application&iId=13986
+- Musicbee with Wine: https://appdb.winehq.org/objectManager.php?sClass=application&iId=11732
+- Rekordbox with Wine: https://appdb.winehq.org/objectManager.php?sClass=application&iId=12290
+- Ricing Videos from typecraft: https://www.youtube.com/watch?v=2CP_9-jCV6A https://www.youtube.com/watch?v=KA1jv40q9lQ https://www.youtube.com/watch?v=omhJMH9lPPc
