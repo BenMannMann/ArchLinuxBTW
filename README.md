@@ -24,6 +24,13 @@ Uncomment the following lines in /etc/pacman.conf
 #[multilib]
 #Include = /etc/pacman.d/mirrorlist
 ```
+to
+```
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
+
+
 
 ## Commands
 - `systemd-analyze` -> Shows how long booting takes
