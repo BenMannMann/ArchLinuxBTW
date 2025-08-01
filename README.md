@@ -5,6 +5,7 @@ Kitty for Terminal
 
 ## Core Things
 Great video to follow! https://www.youtube.com/watch?v=8Oz4CIB4YjU
+- Installed Arch via archinstall
 - Lockdown Root
 - Setup Firewall using `ufw`
 - Disable Remote Ping in `ufw`
