@@ -17,6 +17,8 @@
 - Lock Down Kernel
 - Disable kexec
 - Follow https://wiki.archlinux.org/title/Security basically
+- Long start up is because of AMD lol
+- Linux HDDs formatted to ext4
 
 ## Things I had to do
 
@@ -49,6 +51,14 @@ Bleeding Edge Proton Experimental Wine Package
 3. `tar -xf GE-Proton*.tar.gz -C ~/.steam/steam/compatibilitytools.d/`
 4. Restart Steam
 5. Enable in Steam
+
+### Dolphin Fixes
+Setup applications.menu config file and run the following command:<br>
+`kbuildsycoca6` -> Rebuilds the KService desktop file system configuration cache.<br>
+Or install `archlinux-xdg-menu` and run `XDG_MENU_PREFIX=arch- kbuildsycoca6`
+Can't remember which of these fixed, think both fixed a different issue
+
+Also helps to sort out default applications for things e.g. mpv for videos and imv for images
 
 ## Commands
 - `pacman -S <package>` -> Install a Package
@@ -118,6 +128,24 @@ Bleeding Edge Proton Experimental Wine Package
   - https://archlinux.org/packages/multilib/x86_64/winetricks/
   - https://archlinux.org/packages/multilib/x86_64/wine-mono/
   - https://archlinux.org/packages/extra/x86_64/wine-gecko/
+- `nerd-fonts` -> Fonts
+  - https://archlinux.org/packages/extra/any/nerd-fonts/
+- `woff2-font-awesome` -> Fontawesome
+  - https://archlinux.org/packages/extra/any/woff2-font-awesome/
+- `pavucontrol` -> Music Settings Controller
+  - https://archlinux.org/packages/extra/x86_64/pavucontrol/
+- `swaync` -> Notification Daemon
+  - https://archlinux.org/packages/extra/x86_64/swaync/
+- `libnotify` -> Desktop Notification Library
+  - https://archlinux.org/packages/extra/x86_64/libnotify/
+- `xdg-desktop-portal-hyprland` & `xdg-desktop-portal-gtk` -> XDG Background Portal for hyprland (default) and gtk (fallback)
+  - https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-hyprland/ & https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gtk/
+- `usbutils` -> USB Querying Tools
+  - https://archlinux.org/packages/core/x86_64/usbutils/
+- `qt6ct` -> Window config
+  - https://archlinux.org/packages/extra/x86_64/qt6ct/
+- `archlinux-xdg-menu` -> Window Manager XDG Config Files
+  - https://archlinux.org/packages/extra/any/archlinux-xdg-menu/
 - 
 
 ## Helpful Links:
