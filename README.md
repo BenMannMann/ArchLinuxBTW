@@ -1,12 +1,11 @@
 # My Arch Linux (BTW) Config and Useful Stuff
-Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
-Dolphin for File Manager
-Kitty for Terminal
+- Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
+- Dolphin for File Manager
+- Kitty for Terminal
 
 ## Core Things
-What I used for `archinstall` https://www.youtube.com/watch?v=FxeriGuJKTM
-Great video to follow for security! https://www.youtube.com/watch?v=8Oz4CIB4YjU
-
+- What I used for `archinstall` https://www.youtube.com/watch?v=FxeriGuJKTM
+- Great video to follow for security! https://www.youtube.com/watch?v=8Oz4CIB4YjU
 - Installed Arch via `archinstall`
 - Lockdown Root
 - Setup Firewall using `ufw`
