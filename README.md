@@ -119,6 +119,8 @@ Also helps to sort out default applications for things e.g. mpv for videos and i
   - https://archlinux.org/packages/extra/x86_64/spotify-launcher/
 - `obs-studio` -> OBS
   - https://archlinux.org/packages/extra/x86_64/obs-studio/
+- `calibre` -> Ebook Reader
+  - https://archlinux.org/packages/extra/x86_64/calibre/
 - `hyprshot` -> Screenshotter
   - https://archlinux.org/packages/extra/any/hyprshot/
 - `hyprpaper` -> Wallpaper
