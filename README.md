@@ -45,6 +45,11 @@ Should be an uninstaller in Spotlight that you can just run
 ### Proton GE for Steam Games that don't work with Valve's Protons
 https://github.com/GloriousEggroll/proton-ge-custom
 Bleeding Edge Proton Experimental Wine Package
+1. Download the GE Proton Tar
+2. Go into the Downloads Folder
+3. `tar -xf GE-Proton*.tar.gz -C ~/.steam/steam/compatibilitytools.d/`
+4. Restart Steam
+5. Enable in Steam
 
 ## Commands
 - `pacman -S <package>` -> Install a Package
