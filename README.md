@@ -61,6 +61,7 @@ Bleeding Edge Proton Experimental Wine Package
 - `systemctl status <sshd>` -> Show status of a given service E.G. SSH
 - `lsblk -f` -> List Information about Hard Drives
 - `wine wincfg` -> Wine Config
+- `sbctl status` -> Secure Boot Status
 
 ## Hyprland Commands
 - Windows + O = Terminal
