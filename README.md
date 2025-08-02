@@ -4,8 +4,10 @@ Dolphin for File Manager
 Kitty for Terminal
 
 ## Core Things
-Great video to follow! https://www.youtube.com/watch?v=8Oz4CIB4YjU
-- Installed Arch via archinstall
+What I used for `archinstall` https://www.youtube.com/watch?v=FxeriGuJKTM
+Great video to follow for security! https://www.youtube.com/watch?v=8Oz4CIB4YjU
+
+- Installed Arch via `archinstall`
 - Lockdown Root
 - Setup Firewall using `ufw`
 - Disable Remote Ping in `ufw`
@@ -17,7 +19,7 @@ Great video to follow! https://www.youtube.com/watch?v=8Oz4CIB4YjU
 - Disable kexec
 - Follow https://wiki.archlinux.org/title/Security basically
 
-## Things I had to do!
+## Things I had to do
 
 ### Enable multilib in pacman to install Steam
 Uncomment the following lines in /etc/pacman.conf
