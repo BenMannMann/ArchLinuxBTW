@@ -152,7 +152,9 @@ Also helps to sort out default applications for things e.g. mpv for videos and i
 - `cups` and `cups-pdf` -> Printer & Print to PDF
   - https://archlinux.org/packages/extra/x86_64/cups/ & https://archlinux.org/packages/extra/x86_64/cups-pdf/
 - `system-config-printer` -> GUI to setup Printer 
-- https://archlinux.org/packages/extra/x86_64/system-config-printer/
+  - https://archlinux.org/packages/extra/x86_64/system-config-printer/
+- `sane` and `simple-scan` -> Scanner & GUI for Scanner
+  - https://archlinux.org/packages/extra/x86_64/sane/ & https://archlinux.org/packages/extra/x86_64/simple-scan/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
