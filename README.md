@@ -148,7 +148,8 @@ Also helps to sort out default applications for things e.g. mpv for videos and i
   - https://archlinux.org/packages/extra/x86_64/qt6ct/
 - `archlinux-xdg-menu` -> Window Manager XDG Config Files
   - https://archlinux.org/packages/extra/any/archlinux-xdg-menu/
-- 
+- `cups` and `cups-pdf` -> Printer & Print to PDF
+  - https://archlinux.org/packages/extra/x86_64/cups/ & https://archlinux.org/packages/extra/x86_64/cups-pdf/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
