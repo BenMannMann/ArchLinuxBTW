@@ -19,6 +19,7 @@
 - Follow https://wiki.archlinux.org/title/Security basically
 - Long start up is because of AMD lol
 - Linux HDDs formatted to ext4
+- Avoided needing the AUR as per the Arch Wiki, use pacman for all needed packages
 
 ## Things I had to do
 
