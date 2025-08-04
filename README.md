@@ -155,6 +155,8 @@ Also helps to sort out default applications for things e.g. mpv for videos and i
   - https://archlinux.org/packages/extra/x86_64/system-config-printer/
 - `sane` and `simple-scan` -> Scanner & GUI for Scanner
   - https://archlinux.org/packages/extra/x86_64/sane/ & https://archlinux.org/packages/extra/x86_64/simple-scan/
+- `btop` -> System Monitor
+  - https://archlinux.org/packages/extra/x86_64/btop/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
