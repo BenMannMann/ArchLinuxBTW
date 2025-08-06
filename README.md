@@ -153,6 +153,8 @@ Also helps to sort out default applications for things e.g. mpv for videos and i
   - https://archlinux.org/packages/extra/x86_64/cups/ & https://archlinux.org/packages/extra/x86_64/cups-pdf/
 - `system-config-printer` -> GUI to setup Printer 
   - https://archlinux.org/packages/extra/x86_64/system-config-printer/
+- `gutenprint` and `foomatic-db-gutenprint-ppds` -> Printer Drivers
+  - https://archlinux.org/packages/extra/x86_64/gutenprint/ & https://archlinux.org/packages/extra/x86_64/foomatic-db-gutenprint-ppds/
 - `sane` and `simple-scan` -> Scanner & GUI for Scanner
   - https://archlinux.org/packages/extra/x86_64/sane/ & https://archlinux.org/packages/extra/x86_64/simple-scan/
 - `btop` -> System Monitor
