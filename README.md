@@ -1,3 +1,5 @@
+<img width="1426" height="826" alt="image" src="https://github.com/user-attachments/assets/b297b3ec-88a8-4a94-b442-9bcd22164e0a" />
+
 # My Arch Linux (BTW) Config and Useful Stuff
 - Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
 - Dolphin for File Manager
