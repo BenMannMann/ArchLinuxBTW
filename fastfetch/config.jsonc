@@ -118,7 +118,6 @@
       "key": "{icon} Memory",
       "format": "{used} / {total} ({percentage}%)",
     },
-    "separator",
     {
       "type": "disk",
       "key": "{icon} Disk ({mountpoint})",
