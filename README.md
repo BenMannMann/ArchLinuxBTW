@@ -61,6 +61,10 @@ Can't remember which of these fixed, think both fixed a different issue
 
 Also helps to sort out default applications for things e.g. mpv for videos and imv for images
 
+### Fastfetch
+Setup a config file using `fastfetch --gen-config`, then used `fastfetch -h <module>-format` to find the options and customised the config file.
+E.G. `fastfetch -h display-format` list all of the options for the display module.
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
