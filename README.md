@@ -83,6 +83,7 @@ E.G. `fastfetch -h display-format` list all of the options for the display modul
 - `lsblk -f` -> List Information about Hard Drives
 - `wine wincfg` -> Wine Config
 - `sbctl status` -> Secure Boot Status
+- `killall <zed-editor>` -> Kill all processes of the given application
 
 ## Hyprland Commands
 - Windows + O = Terminal
