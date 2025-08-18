@@ -72,6 +72,7 @@ E.G. `fastfetch -h display-format` list all of the options for the display modul
 - `pacman -Syu` -> Upgrade all Packages
 - `pacman -Rsc <package>` -> Remove a Package
 - `pacman -Qdt` -> Query unneeded packages (orphan packages)
+- `pacman -Rns $(pacman -Qdtq)` -> Remove orphan packages
 - `pacman -Q` -> List installed packages
 - `pacman -Qe` -> List explicitly installed packages
 - `checkupdates` -> Check for updates in Pacman
