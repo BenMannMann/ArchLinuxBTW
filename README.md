@@ -88,7 +88,7 @@ E.G. `fastfetch -h display-format` list all of the options for the display modul
 
 ## Hyprland Commands
 - Windows + O = Terminal
-- Windwos + C = Close Window
+- Windows + C = Close Window
 - Windows + E = File Manager
 - Windows + F = Firefox
 - Windows + Space = Spotlight Search
@@ -139,6 +139,8 @@ E.G. `fastfetch -h display-format` list all of the options for the display modul
   - https://archlinux.org/packages/multilib/x86_64/winetricks/
   - https://archlinux.org/packages/multilib/x86_64/wine-mono/
   - https://archlinux.org/packages/extra/x86_64/wine-gecko/
+- `wine-staging` -> Replaces `wine`, testing branch with the latest fixes
+  - https://archlinux.org/packages/extra/x86_64/wine-staging/
 - `nerd-fonts` -> Fonts
   - https://archlinux.org/packages/extra/any/nerd-fonts/
 - `woff2-font-awesome` -> Fontawesome
