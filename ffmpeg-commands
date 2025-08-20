@@ -1,0 +1,23 @@
+** Download something **
+yt-dlp -o "%(title)s.%(ext)s" {{INSERT URL HERE}}
+
+** Download something as MP4 **
+yt-dlp -o "%(title)s.%(ext)s" {{INSERT URL HERE}} -S vcodec:h264,res:1080,acodec:m4
+
+** Convert file formats **
+ffmpeg -i "E:\Videos\Kyoukai No Kanata - Idols.webm" "E:\Videos\Kyoukai No Kanata - Idols.mp4"
+
+** Convert file to FLAC ** 
+ffmpeg -i "D:\Video Archive\Music\Rap~Grime\Unknown T X Memories Of Before.webm" -c:a flac t.flac
+
+** Cut and create a new video file with the given start and end times **
+ffmpeg -ss 19:09 -to 21:48 -i "D:\Anime\Macross Delta\[gg]_Macross_Delta_-_10_[FAE5B24D].mkv" -c copy 1.mkv
+
+** Remove copy to reencode the file - fixes issue where files don't actually get cut as copy does it by keyframes **
+ffmpeg -ss 19:09 -to 21:48 -i "D:\Anime\Macross Delta\[gg]_Macross_Delta_-_10_[FAE5B24D].mkv" 1.mkv 
+
+** If a video has chapters, add -map_chapters -1 to fix the metadata being messed up ** 
+ffmpeg -ss 22:08 -to 23:25 -i "D:\Anime\Kyoukai no Kanata\Kyoukai no Kanata\[RH] Kyoukai no Kanata - 01 [Dual Audio] [BDRip] [1080p].mkv" -map_chapters -1 "D:\Anime\Kyoukai no Kanata\Kyoukai no Kanata\[RH] Kyoukai no Kanata - 01 [Dual Audio] [BDRip] [1080p]test.mp4"
+
+** Convert all .webm in a folder into mp4 **
+for %i in (*.webm) do ffmpeg -i "%i" "%~ni.mp4"
