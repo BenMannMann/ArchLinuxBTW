@@ -67,6 +67,10 @@ Also helps to sort out default applications for things e.g. mpv for videos and i
 Setup a config file using `fastfetch --gen-config`, then used `fastfetch -h <module>-format` to find the options and customised the config file.
 E.G. `fastfetch -h display-format` list all of the options for the display module.
 
+### Zeditor Broken
+Latest NVIDIA drivers have broken Zeditor. A workaround to open it is to run the following command:
+`env -u WAYLAND_DISPLAY zeditor`
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
@@ -169,6 +173,8 @@ E.G. `fastfetch -h display-format` list all of the options for the display modul
   - https://archlinux.org/packages/extra/x86_64/sane/ & https://archlinux.org/packages/extra/x86_64/simple-scan/
 - `btop` -> System Monitor
   - https://archlinux.org/packages/extra/x86_64/btop/
+- `twitch-tui` -> Twitch Chat in the Terminal
+  - https://archlinux.org/packages/extra/x86_64/twitch-tui/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
