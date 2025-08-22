@@ -71,6 +71,9 @@ E.G. `fastfetch -h display-format` list all of the options for the display modul
 Latest NVIDIA drivers have broken Zeditor. A workaround to open it is to run the following command:
 `env -u WAYLAND_DISPLAY zeditor`
 
+### Twitch TUI Tokens
+Generated with https://twitchtokengenerator.com/. Use the refresh token to generate a new access token if it expires.
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
@@ -89,6 +92,7 @@ Latest NVIDIA drivers have broken Zeditor. A workaround to open it is to run the
 - `wine wincfg` -> Wine Config
 - `sbctl status` -> Secure Boot Status
 - `killall <zed-editor>` -> Kill all processes of the given application
+- `twt` -> Run Twitch TUI (Twitch Chat in Terminal)
 
 ## Hyprland Commands
 - Windows + O = Terminal
