@@ -44,7 +44,7 @@ Include = /etc/pacman.d/mirrorlist
 4. Profit? Should Just Work
 
 ### Uninstall Windows Software from Wine
-Should be an uninstaller in Spotlight that you can just run
+Should be an uninstaller in Spotlight that you can just run. If there isn't, run `wine uninstaller` and uninstall from there.
 
 ### Proton GE for Steam Games that don't work with Valve's Protons
 https://github.com/GloriousEggroll/proton-ge-custom
