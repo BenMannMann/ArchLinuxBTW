@@ -74,6 +74,9 @@ Latest NVIDIA drivers have broken Zeditor. A workaround to open it is to run the
 ### Twitch TUI Tokens
 Generated with https://twitchtokengenerator.com/. Use the refresh token to generate a new access token if it expires.
 
+### LINE Notifications
+They work and have the usual LINE notification popup in the bottom right. I looked into if it's possible to send these to swaync/notification daemon and it's not.
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
