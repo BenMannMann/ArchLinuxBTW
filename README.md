@@ -179,6 +179,12 @@ Generated with https://twitchtokengenerator.com/. Use the refresh token to gener
   - https://archlinux.org/packages/extra/x86_64/btop/
 - `twitch-tui` -> Twitch Chat in the Terminal
   - https://archlinux.org/packages/extra/x86_64/twitch-tui/
+- `streamlink` -> Watch livestreams via `mpv`
+  - https://archlinux.org/packages/extra/any/streamlink/
+- `yt-dlp` -> Video downloader
+  - https://archlinux.org/packages/extra/any/yt-dlp/
+- `ffmpeg` -> THE GOAT
+  - https://archlinux.org/packages/extra/x86_64/ffmpeg/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
