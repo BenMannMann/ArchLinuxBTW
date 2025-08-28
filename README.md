@@ -188,6 +188,8 @@ They work and have the usual LINE notification popup in the bottom right. I look
   - https://archlinux.org/packages/extra/any/yt-dlp/
 - `ffmpeg` -> THE GOAT
   - https://archlinux.org/packages/extra/x86_64/ffmpeg/
+- `retroarch` and `retroarch-assets-xmb` and `retroarch-assets-ozone` -> RetroArch with GUIs
+  - https://archlinux.org/packages/extra/x86_64/retroarch/ & https://archlinux.org/packages/extra/any/retroarch-assets-xmb/ & https://archlinux.org/packages/extra/any/retroarch-assets-ozone/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
