@@ -77,6 +77,13 @@ Generated with https://twitchtokengenerator.com/. Use the refresh token to gener
 ### LINE Notifications
 They work and have the usual LINE notification popup in the bottom right. I looked into if it's possible to send these to swaync/notification daemon and it's not.
 
+### RetroArch Cores
+Enable the following in the config to allow downloading cores through RetroArch rather than pacman:
+```
+~/.config/retroarch/retroarch.cfg
+menu_show_core_updater = "true"
+```
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
@@ -190,6 +197,8 @@ They work and have the usual LINE notification popup in the bottom right. I look
   - https://archlinux.org/packages/extra/x86_64/ffmpeg/
 - `retroarch` and `retroarch-assets-xmb` and `retroarch-assets-ozone` -> RetroArch with GUIs
   - https://archlinux.org/packages/extra/x86_64/retroarch/ & https://archlinux.org/packages/extra/any/retroarch-assets-xmb/ & https://archlinux.org/packages/extra/any/retroarch-assets-ozone/
+- `librero-core-info` -> Allows downloading cores in RetroArch rather than pacman
+  - https://archlinux.org/packages/extra/any/libretro-core-info/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
