@@ -84,6 +84,16 @@ Enable the following in the config to allow downloading cores through RetroArch 
 menu_show_core_updater = "true"
 ```
 
+### Fix RES Permission Requests
+When trying to open a link inline on Reddit with RES, a new pop up window appears asking for permission. However, hyprpolkit doesn't seem to appear to allow this permission to be accepted. To get around, do the following steps:
+- Open the console with F12
+- Type `window.location.href`
+- Copy the URL into a new tab in the browser and press enter
+- Allow the permission
+- Refresh Reddit
+
+Inline links should now work for that source. Rinse and repeat for any other links that require permission.
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
