@@ -16,6 +16,7 @@
     ],
 
     "modules-right": [
+        "privacy",
         "pulseaudio",
         "tray",
 	    "custom/notification",
@@ -50,17 +51,17 @@
     },
 
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
+        "scroll-step": 1,
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": "",
+            "headset": "",
             "phone": "",
             "portable": "",
             "car": "",
@@ -142,5 +143,29 @@
 			"reboot": "reboot",
 			"shutdown": "poweroff",
 		}
-    }
+    },
+
+    "privacy": {
+    	"icon-spacing": 4,
+    	"icon-size": 18,
+    	"transition-duration": 250,
+    	"modules": [
+    		{
+    			"type": "screenshare",
+    			"tooltip": true,
+    			"tooltip-icon-size": 16
+    		},
+    		{
+    			"type": "audio-out",
+    			"tooltip": true,
+    			"tooltip-icon-size": 16
+    		},
+    		{
+    			"type": "audio-in",
+    			"tooltip": true,
+    			"tooltip-icon-size": 16
+    		}
+    	],
+    	"ignore-monitor": true,
+    },
 }
