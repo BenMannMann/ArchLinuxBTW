@@ -77,12 +77,13 @@ Generated with https://twitchtokengenerator.com/. Use the refresh token to gener
 ### LINE Notifications
 They work and have the usual LINE notification popup in the bottom right. I looked into if it's possible to send these to swaync/notification daemon and it's not.
 
-### RetroArch Cores
+### RetroArch
 Enable the following in the config to allow downloading cores through RetroArch rather than pacman:
 ```
 ~/.config/retroarch/retroarch.cfg
 menu_show_core_updater = "true"
 ```
+Retorarch wasn't really great so I've manually installed Duckstation, PCSX2 & RPCS3 using AppImages.
 
 ### Fix RES Permission Requests
 When trying to open a link inline on Reddit with RES, a new pop up window appears asking for permission. However, hyprpolkit doesn't seem to appear to allow this permission to be accepted. To get around, do the following steps:
