@@ -100,16 +100,16 @@
     },
 
     "custom/media": {
+        // "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        //"exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
         "format": "{icon} {text}",
-        "return-type": "json",
-        "max-length": 40,
         "format-icons": {
             "spotify": "",
             "default": "🎜"
         },
+        "return-type": "json",
+        "max-length": 40,
         "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        //"exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
 
     "custom/notification": {
@@ -166,5 +166,11 @@
     		}
     	],
     	"ignore-monitor": true,
+        "ignore": [
+            {
+                "type": "audio-out",
+                "name": "spotify"
+            },
+        ]
     },
 }
