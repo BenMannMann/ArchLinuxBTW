@@ -95,6 +95,21 @@ When trying to open a link inline on Reddit with RES, a new pop up window appear
 
 Inline links should now work for that source. Rinse and repeat for any other links that require permission.
 
+### New Entries into Wofi (E.G. AppImages)
+You can add new entries into Wofi (spotlight search) by:
+- Create a <name>.desktop file in `~/.local/share/applications`
+- Within this file, place the following:
+[Desktop Entry]
+Name=RPCS3
+Comment=PS3 Emulator
+Exec=/home/ben/Documents/AppImages/RPCS3.AppImage
+Icon=rpcs3
+Terminal=false
+Type=Application
+Categories=Emulation;Game;
+- Then run the following command to update the database: `update-desktop-database ~/.local/share/applications`
+More info at https://wiki.archlinux.org/title/Desktop_entries
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
