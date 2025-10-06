@@ -26,6 +26,7 @@
 
     // Modules configuration
     "hyprland/workspaces": {
+        "cursor": true,
         "disable-scroll": true,
         "all-outputs": true,
         "warp-on-scroll": false,
@@ -39,10 +40,6 @@
             "6": "",
             "default": "󰔷"
         },
-        "persistent-workspaces": {
-            "DP-1": [ 1, 2 ],
-            "DP-2": [ 3, 4, 5, 6 ],
-        }
     },
 
     "hyprland/window": {
@@ -154,11 +151,11 @@
     			"tooltip": true,
     			"tooltip-icon-size": 16
     		},
-    		{
-    			"type": "audio-out",
-    			"tooltip": true,
-    			"tooltip-icon-size": 16
-    		},
+    		// { // Commenting out audio-out will ignore all audio-out sources
+    		// 	"type": "audio-out",
+    		// 	"tooltip": true,
+    		// 	"tooltip-icon-size": 16
+    		// },
     		{
     			"type": "audio-in",
     			"tooltip": true,
@@ -166,11 +163,5 @@
     		}
     	],
     	"ignore-monitor": true,
-        "ignore": [
-            {
-                "type": "audio-out",
-                "name": "spotify"
-            },
-        ]
     },
 }
