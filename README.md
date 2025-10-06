@@ -110,6 +110,34 @@ Categories=Emulation;Game;
 - Then run the following command to update the database: `update-desktop-database ~/.local/share/applications`
 More info at https://wiki.archlinux.org/title/Desktop_entries
 
+### Privacy Module
+In Waybar, there is a privacy module that allows you to see when an application is using your microphone & screensharing. It also display what programs are outputting audio which doesn't really matter. You can disable it by commenting out the audio-out module in privacy:
+```
+    "privacy": {
+    	"icon-spacing": 4,
+    	"icon-size": 18,
+    	"transition-duration": 250,
+    	"modules": [
+    		{
+    			"type": "screenshare",
+    			"tooltip": true,
+    			"tooltip-icon-size": 16
+    		},
+    		// { // Commenting out audio-out will ignore all audio-out sources
+    		// 	"type": "audio-out",
+    		// 	"tooltip": true,
+    		// 	"tooltip-icon-size": 16
+    		// },
+    		{
+    			"type": "audio-in",
+    			"tooltip": true,
+    			"tooltip-icon-size": 16
+    		}
+    	],
+    	"ignore-monitor": true,
+    },
+```
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
