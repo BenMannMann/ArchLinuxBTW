@@ -52,7 +52,7 @@
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
+        "format-source": "  {volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -63,7 +63,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "pavucontrol",
     },
 
     "clock": {
@@ -93,7 +93,8 @@
     "tray": {
         "icons": {
             "blueman": "bluetooth",
-        }
+        },
+        "spacing": 8,
     },
 
     "custom/media": {
