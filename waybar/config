@@ -47,20 +47,9 @@
     },
 
     "pulseaudio": {
-        "scroll-step": 1,
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "  {volume}% ",
-        "format-source-muted": "",
+        "scroll-step": 0, // Prevent lowering volume via scroll wheel
+        "format": "{volume}% {icon} ",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol",
@@ -95,19 +84,6 @@
             "blueman": "bluetooth",
         },
         "spacing": 8,
-    },
-
-    "custom/media": {
-        // "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        //"exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-        "format": "{icon} {text}",
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "return-type": "json",
-        "max-length": 40,
-        "escape": true,
     },
 
     "custom/notification": {
