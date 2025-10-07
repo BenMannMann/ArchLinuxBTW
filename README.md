@@ -1,4 +1,5 @@
-<img width="2560" height="1440" alt="2025-08-19-140730_hyprshot" src="https://github.com/user-attachments/assets/11c6c2e6-9c4f-4bf5-b06e-19043e706c01" />
+<img width="2561" height="1441" alt="image" src="https://github.com/user-attachments/assets/96c78a09-fc8d-42d3-a27f-6fe6025ccc94" />
+
 
 # My Arch Linux (BTW) Config and Useful Stuff
 - Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
