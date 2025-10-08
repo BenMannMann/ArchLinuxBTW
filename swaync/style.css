@@ -16,6 +16,7 @@
 /* Base styles */
 * {
     outline: none;
+    font-family: SpaceMono Nerd Font;
 }
 
 *:focus {
