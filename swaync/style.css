@@ -1,12 +1,12 @@
 :root {
-    --bg-primary: #282828;
-    --bg-secondary: #262626;
-    --bg-button: #4e4e4e;
-    --bg-button-hover: #5e5e5e;
-    --bg-button-active: #6e6e6e;
+    --bg-primary: #2b303b;
+    --bg-secondary: #21252e;
+    --bg-button: #2b303b;
+    --bg-button-hover: #363c4a;
+    --bg-button-active: #414859;
     --text-primary: #ffffff;
     --text-disabled: #5c554a;
-    --border-color: #504945;
+    --border-color: #64727d;
     --priority-low: #ffffff;
     --priority-normal: skyblue;
     --priority-critical: #eb4d4b;
@@ -346,7 +346,7 @@ scrollbar slider {
     margin: 8px;
     font-size: 12px;
     background: var(--bg-primary);
-    border: 1px solid var(--text-disabled);
+    border: 1px solid var(--border-color);
     padding: 3px 10px;
     color: var(--text-primary);
     font-weight: 700;
