@@ -1,7 +1,13 @@
 /* Default Settings */
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family:
+        SpaceMono Nerd Font,
+        FontAwesome,
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
     font-size: 14px;
 }
 
@@ -46,7 +52,7 @@ button:hover {
 
 /* Left Module Stytling */
 #workspaces button {
-    padding: 0 0.75em;
+    padding: 0 10px;
     color: #ffffff;
     background-color: transparent;
     box-shadow: inset 0 -2px transparent;
@@ -85,7 +91,8 @@ button:hover {
 #tray,
 #custom-notification,
 #custom-power {
-    padding: 0 0.5em;
+    padding: 0 5px;
+    min-width: 20px;
     color: #ffffff;
     background-color: transparent;
     box-shadow: inset 0 -2px transparent;
