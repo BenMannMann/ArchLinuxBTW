@@ -1,4 +1,4 @@
-<img width="2561" height="1441" alt="image" src="https://github.com/user-attachments/assets/4116ab2c-1b87-496e-8025-6328591f63a0" />
+<img width="2561" height="1441" alt="2025-10-08-142111_hyprshot" src="https://github.com/user-attachments/assets/4b4c9be4-f061-4f97-bc77-3accc9ad4493" />
 
 # My Arch Linux (BTW) Config and Useful Stuff
 - Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
@@ -22,6 +22,9 @@
 - Long start up is because of AMD lol
 - Linux HDDs formatted to ext4
 - Avoided needing the AUR as per the Arch Wiki, use pacman for all needed packages
+
+## Screenshots
+<img width="561" height="728" alt="2025-10-08-142116_hyprshot" src="https://github.com/user-attachments/assets/a4fe1b18-f9b0-4afd-b9e5-6954ba5f9c22" />
 
 ## Things I had to do
 
