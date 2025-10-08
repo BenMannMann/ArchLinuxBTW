@@ -1,4 +1,4 @@
-<img width="2561" height="1441" alt="image" src="https://github.com/user-attachments/assets/23fe864e-8727-4269-bdd4-16b209724783" />
+<img width="2561" height="1441" alt="image" src="https://github.com/user-attachments/assets/4116ab2c-1b87-496e-8025-6328591f63a0" />
 
 # My Arch Linux (BTW) Config and Useful Stuff
 - Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
