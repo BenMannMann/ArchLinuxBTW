@@ -1,0 +1,124 @@
+/* Notification styles */
+.notification-background .notification {
+    background-color: transparent;
+    margin-bottom: unset;
+    border: unset;
+    border-radius: 5px;
+    -gtk-outline-radius: 5px;
+}
+
+.notification-background .notification .notification-content {
+    padding: 15px;
+    background-color: #1d1d22;
+}
+
+.notification-background .notification.low .notification-content label,
+.notification-background .notification.normal .notification-content label {
+    color: #c7c5d0;
+}
+
+.notification-background .notification.low .notification-content image,
+.notification-background .notification.normal .notification-content image {
+    color: #e2e0f9;
+}
+
+.notification-background .notification.low .notification-content .body,
+.notification-background .notification.normal .notification-content .body {
+    color: #92919a;
+}
+
+.notification-background .notification.critical .notification-content {
+    background-color: #ffb4a9;
+}
+
+.notification-background .notification.critical .notification-content image {
+    color: #ffb4a9;
+}
+
+.notification-background .notification.critical .notification-content label {
+    color: #680003;
+}
+
+.notification-background .notification .notification-content .summary {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.notification-background .notification .notification-content .time {
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.notification-background .notification .notification-content .body {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+/* Close button styles */
+.close-button {
+    background-color: unset;
+    border-radius: 100%;
+    border: none;
+    box-shadow: none;
+    margin-right: 15px;
+    margin-top: 10px;
+    padding: unset;
+    min-height: 20px;
+    min-width: 20px;
+    text-shadow: none;
+}
+
+.close-button:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Control centre styles */
+.control-center {
+    background-color: rgba(43, 48, 59, 0.95);
+    border: 2px solid rgba(100, 114, 125, 0.5);
+}
+
+/* Title styles */
+.widget-title {
+    padding: 5px;
+}
+
+.widget-title label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #e4e1e6;
+    margin-left: 15px;
+}
+
+.widget-title button {
+    border: unset;
+    background-color: unset;
+    border-radius: 20px;
+    -gtk-outline-radius: 20px;
+    padding: 5px;
+}
+
+.widget-title button label {
+    font-size: 14px;
+    color: #e4e1e6;
+    margin-right: 10px;
+}
+
+.widget-title button:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.widget-title button:active {
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+/* Do Not Disturb styles */
+.widget-dnd label {
+    margin-left: 12px;
+}
+
+.widget-dnd > switch {
+    margin-right: 10px;
+}
