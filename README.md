@@ -1,4 +1,4 @@
-<img width="2561" height="1441" alt="2025-10-08-142111_hyprshot" src="https://github.com/user-attachments/assets/4b4c9be4-f061-4f97-bc77-3accc9ad4493" />
+<img width="2561" height="1441" alt="2025-10-08-150251_hyprshot" src="https://github.com/user-attachments/assets/659d70db-dd3a-4b0f-8b4f-46c1f1f87fd8" />
 
 # My Arch Linux (BTW) Config and Useful Stuff
 - Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
@@ -24,7 +24,7 @@
 - Avoided needing the AUR as per the Arch Wiki, use pacman for all needed packages
 
 ## Screenshots
-<img width="561" height="728" alt="2025-10-08-142116_hyprshot" src="https://github.com/user-attachments/assets/a4fe1b18-f9b0-4afd-b9e5-6954ba5f9c22" />
+<img width="639" height="793" alt="image" src="https://github.com/user-attachments/assets/6d71208f-973d-47ca-b834-9017084a80f2" />
 
 ## Things I had to do
 
