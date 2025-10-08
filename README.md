@@ -24,6 +24,8 @@
 - Avoided needing the AUR as per the Arch Wiki, use pacman for all needed packages
 
 ## Screenshots
+<img width="986" height="710" alt="image" src="https://github.com/user-attachments/assets/03a68eae-03c0-41f1-bf7b-7e21b3f797d7" />
+
 <img width="639" height="793" alt="image" src="https://github.com/user-attachments/assets/6d71208f-973d-47ca-b834-9017084a80f2" />
 
 ## Things I had to do
