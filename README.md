@@ -53,7 +53,7 @@ Should be an uninstaller in Spotlight that you can just run. If there isn't, run
 
 ### Proton GE for Steam Games that don't work with Valve's Protons
 https://github.com/GloriousEggroll/proton-ge-custom
-Bleeding Edge Proton Experimental Wine Package
+Bleeding Edge Proton Experimental Wine Packagehttps://gitlab.com/Matt.Jolly/sddm-eucalyptus-drop/
 1. Download the GE Proton Tar
 2. Go into the Downloads Folder
 3. `tar -xf GE-Proton*.tar.gz -C ~/.steam/steam/compatibilitytools.d/`
@@ -142,6 +142,17 @@ In Waybar, there is a privacy module that allows you to see when an application 
     	"ignore-monitor": true,
     },
 ```
+
+### SDDM Theme & Options
+To setup SDDM theming, create a copy of the default sddm config by running:
+```
+sudo mkdir /etc/sddm.conf.d
+sudo cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d/sddm.conf
+```
+Then, I've changed the "Current" parameter to be `Current=eucalyptus-drop`, which I downloaded from https://gitlab.com/Matt.Jolly/sddm-eucalyptus-drop/.
+To install the theme, download and extract the folder, then move it to the themes folder like so `sudo mv ~/Downloads/eucalyptus-drop/ /usr/share/sddm/themes/`
+Then you can edit the theme.conf to your hearts content.
+
 
 ## Commands
 - `pacman -S <package>` -> Install a Package
