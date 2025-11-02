@@ -22,6 +22,7 @@
 - Long start up is because of AMD lol
 - Linux HDDs formatted to ext4
 - Avoided needing the AUR as per the Arch Wiki, use pacman for all needed packages
+- SDDM Theme - Eucalyptus Drop by Matt Jolly
 
 ## Screenshots
 <img width="843" height="690" alt="image" src="https://github.com/user-attachments/assets/d76bf248-50f9-42c0-831e-5f3583e55ecd" />
