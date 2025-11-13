@@ -1,4 +1,4 @@
-<img width="2561" height="1441" alt="2025-10-08-150251_hyprshot" src="https://github.com/user-attachments/assets/659d70db-dd3a-4b0f-8b4f-46c1f1f87fd8" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/7bd5b612-2701-4890-8a98-a71e0610fd2c" />
 
 # My Arch Linux (BTW) Config and Useful Stuff
 - Running Arch Linux with Wayland & Hyprland, Waybar, Wofi and SDDM
@@ -153,6 +153,11 @@ sudo cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf.d/sddm.conf
 Then, I've changed the "Current" parameter to be `Current=eucalyptus-drop`, which I downloaded from https://gitlab.com/Matt.Jolly/sddm-eucalyptus-drop/.
 To install the theme, download and extract the folder, then move it to the themes folder like so `sudo mv ~/Downloads/eucalyptus-drop/ /usr/share/sddm/themes/`
 Then you can edit the theme.conf to your hearts content.
+
+### Jagex Launcher & Runelite
+Followed the following guide: https://github.com/nmlynch94/com.jagexlauncher.JagexLauncher
+
+Run the Jagex Launcher by using the following command `flatpak run com.jagexlauncher.JagexLauncher`
 
 
 ## Commands
