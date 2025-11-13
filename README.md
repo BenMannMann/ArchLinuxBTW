@@ -114,9 +114,10 @@ Icon=/home/ben/.local/share/applications/Icons/rpcs3.png
 Terminal=false
 Type=Application
 Categories=Emulation;Game;
-- Then run the following command to update the database: `update-desktop-database ~/.local/share/applications`
-More info at https://wiki.archlinux.org/title/Desktop_entries
 ```
+- Then run the following command to update the database: `update-desktop-database ~/.local/share/applications`
+More info at https://wiki.archlinux.org/title/Desktop_entries - Hyprland doesn't require you to update the database, or at least I didn't when creating the Jagex Launcher desktop file...
+
 To add icons, I created an icons folder within `~/.local/share/applications`, placed the icons in here and just referenced their path in the relevent desktop entires (example above).
 
 ### Privacy Module
