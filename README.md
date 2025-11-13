@@ -105,16 +105,19 @@ Inline links should now work for that source. Rinse and repeat for any other lin
 You can add new entries into Wofi (spotlight search) by:
 - Create a <name>.desktop file in `~/.local/share/applications`
 - Within this file, place the following:
+```
 [Desktop Entry]
 Name=RPCS3
 Comment=PS3 Emulator
 Exec=/home/ben/Documents/AppImages/RPCS3.AppImage
-Icon=rpcs3
+Icon=/home/ben/.local/share/applications/Icons/rpcs3.png
 Terminal=false
 Type=Application
 Categories=Emulation;Game;
 - Then run the following command to update the database: `update-desktop-database ~/.local/share/applications`
 More info at https://wiki.archlinux.org/title/Desktop_entries
+```
+To add icons, I created an icons folder within `~/.local/share/applications`, placed the icons in here and just referenced their path in the relevent desktop entires (example above).
 
 ### Privacy Module
 In Waybar, there is a privacy module that allows you to see when an application is using your microphone & screensharing. It also display what programs are outputting audio which doesn't really matter. You can disable it by commenting out the audio-out module in privacy:
