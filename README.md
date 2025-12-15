@@ -279,6 +279,8 @@ Run the Jagex Launcher by using the following command `flatpak run com.jagexlaun
   - https://archlinux.org/packages/extra/x86_64/retroarch/ & https://archlinux.org/packages/extra/any/retroarch-assets-xmb/ & https://archlinux.org/packages/extra/any/retroarch-assets-ozone/
 - `librero-core-info` -> Allows downloading cores in RetroArch rather than pacman
   - https://archlinux.org/packages/extra/any/libretro-core-info/
+- `lact` -> GPU Fan Control
+    - https://archlinux.org/packages/extra/x86_64/lact/
 
 ## Helpful Links:
 - Pacman cheat sheet https://devhints.io/pacman
