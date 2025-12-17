@@ -168,8 +168,7 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 1. Go to Preferences -> Devices -> Add Virtual Device
 2. Find the device mounted in Wine (Mount via winecfg)
 3. Selct playlists to sync in the "Music" tab
-4. In settings, change playlist format to be M3U8 and check use relative file paths
-5. Apply, Save, then in the sidebar of musicbee it should now be listed as a Virtual Device. You can then proceed to sync via this screen like you used to on Windows!
+4. Apply, Save, then in the sidebar of musicbee it should now be listed as a Virtual Device. You can then proceed to sync via this screen like you used to on Windows!
 
 
 ## Commands
