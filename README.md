@@ -177,6 +177,7 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 - `pacman -Rsc <package>` -> Remove a Package
 - `pacman -Qdt` -> Query unneeded packages (orphan packages)
 - `pacman -Rns $(pacman -Qdtq)` -> Remove orphan packages
+- `pacman -Sc` -> Removes pacman cache
 - `pacman -Q` -> List installed packages
 - `pacman -Qe` -> List explicitly installed packages
 - `checkupdates` -> Check for updates in Pacman
@@ -190,6 +191,7 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 - `sbctl status` -> Secure Boot Status
 - `killall <zed-editor>` -> Kill all processes of the given application
 - `twt` -> Run Twitch TUI (Twitch Chat in Terminal)
+- `killall -SIGUSR2 waybar` -> Reload waybar
 
 ## Hyprland Commands
 - Windows + O = Terminal
