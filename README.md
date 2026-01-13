@@ -191,7 +191,7 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 - `sbctl status` -> Secure Boot Status
 - `killall <zed-editor>` -> Kill all processes of the given application
 - `twt` -> Run Twitch TUI (Twitch Chat in Terminal)
-- `killall -SIGUSR2 waybar` -> Reload waybar
+- `pkill waybar && hyprctl dispatch exec waybar` -> Reload waybar
 
 ## Hyprland Commands
 - Windows + O = Terminal
