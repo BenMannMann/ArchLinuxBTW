@@ -302,7 +302,6 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 - Ricing Videos from typecraft: https://www.youtube.com/watch?v=2CP_9-jCV6A https://www.youtube.com/watch?v=KA1jv40q9lQ https://www.youtube.com/watch?v=omhJMH9lPPc
 
 ## Misc Screenshots
-Secure Boot
 <img width="765" height="813" alt="2026-02-11-205136_hyprshot" src="https://github.com/user-attachments/assets/802a24e0-397b-43a7-b085-82a165629533" />
 <img width="735" height="465" alt="2026-02-11-205141_hyprshot" src="https://github.com/user-attachments/assets/ccd78da2-b382-4096-a444-295fd9c4f25a" />
 
