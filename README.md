@@ -192,6 +192,7 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 - `killall <zed-editor>` -> Kill all processes of the given application
 - `twt` -> Run Twitch TUI (Twitch Chat in Terminal)
 - `pkill waybar && hyprctl dispatch exec waybar` -> Reload waybar
+- `pdftk 'path-to-pdf/name.pdf' 'path-to-pdf/other.pdf' cat output merged.pdf` -> Combine PDFs (Drag and drop files into terminal for the path)
 
 ## Hyprland Commands
 - Windows + O = Terminal
