@@ -173,7 +173,7 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 ### Split Lock Mitigation
 Space Marine 2 keeps crashing on the main menu. Upon digging there is a kernel.split_lock_mitigate variable that we can modify to turn off split lock mitigation. This is basically something to annoy developers (and users!) into optimising their game for Linux. https://wiki.archlinux.org/title/Steam/Game-specific_troubleshooting#Split_lock_detection_/_mitigation
 
-Run `sudo sysctl kernel.split_lock_mitigate=0` to disable it temporarily (resets after reboot), or `echo "kernel.split_lock_mitigate = 0" > /etc/sysctl.d/99-splitlock.conf` to set it permanently.
+Run `sudo sysctl kernel.split_lock_mitigate=0` to disable it temporarily (resets after reboot), or `echo "kernel.split_lock_mitigate = 0" | sudo tee /etc/sysctl.d/99-split-lock.conf` to set it permanently.
 
 ## Commands
 - `pacman -S <package>` -> Install a Package
