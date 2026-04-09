@@ -175,6 +175,13 @@ Space Marine 2 keeps crashing on the main menu. Upon digging there is a kernel.s
 
 Run `sudo sysctl kernel.split_lock_mitigate=0` to disable it temporarily (resets after reboot), or `echo "kernel.split_lock_mitigate = 0" | sudo tee /etc/sysctl.d/99-split-lock.conf` to set it permanently.
 
+### Firefox keeps messing with pipewire audio volume
+Firefox kept setting the audio level to 70-80% everytime I interacted with a video on youtube. To fix:
+1. Go to `about:config` in Firefox
+2. Create a new config called `media.cubeb.backend`. Set it as a string with a value of `alsa`
+3. Reload Firefox
+Make sure you have pipewire-alsa installed for this to work!
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
