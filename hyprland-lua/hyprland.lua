@@ -7,13 +7,13 @@
 
 -- You can (and should!!) split this configuration into multiple files
 -- Create your files separately and then require them like this:
-require("lua.monitors")
-require("lua.programs")
-require("lua.autostart")
-require("lua.windows")
-require("lua.environment")
-require("lua.permissions")
-require("lua.looks")
-require("lua.input")
-require("lua.keybindings")
-require("lua.misc")
+require("monitors")
+require("programs")
+require("autostart")
+require("windows")
+require("environment")
+require("permissions")
+require("looks")
+require("input")
+require("keybindings")
+require("misc")
