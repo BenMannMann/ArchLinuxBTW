@@ -5,14 +5,14 @@
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
-hl.bind(mainMod .. " + O", hl.dsp.exec_cmd(terminal))
-hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("firefox"))
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
+hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("kitty"))
+hl.bind(mainMod .. " + F", hl.dsp.exec_cmd("firefox"))
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t -sw"))
-hl.bind(mainMod .. " + M", hl.dsp.exec_cmd(terminal .. "bc -i"))
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("kitty --hold bc -i"))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + space", hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + space", hl.dsp.exec_cmd("wofi --show drun"))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle only
 
