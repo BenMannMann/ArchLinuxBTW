@@ -182,6 +182,9 @@ Firefox kept setting the audio level to 70-80% everytime I interacted with a vid
 3. Reload Firefox
 Make sure you have pipewire-alsa installed for this to work!
 
+### Keybindings broke Hyprland after converting to Lua
+I followed the guide to use multiple configuration files, which then broke keybindings and the whole config. To fix it, nano into programs.lua and change local to global. Even though all of the files are loaded into hyprland.lua for some reason each file can't see other file's local variables so we have to define them globally instead.
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
