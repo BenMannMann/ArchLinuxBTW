@@ -169,6 +169,7 @@ You can sync to Walkman still even with MusicBee running in Wine. Issue I had wa
 2. Find the device mounted in Wine (Mount via winecfg)
 3. Selct playlists to sync in the "Music" tab
 4. Apply, Save, then in the sidebar of musicbee it should now be listed as a Virtual Device. You can then proceed to sync via this screen like you used to on Windows!
+5. When syncing, it will usually be quite fast on the PC. However! It hasn't actually synced all of the music! So you will need to just leave it plugged in for a good amount of time to make sure it has synced everything. If you unplug too early, you will need to uncheck the playlist, delete all the files when it asks when you click (re)sync, then check the playlist again to start syncing everything
 
 ### Split Lock Mitigation
 Space Marine 2 keeps crashing on the main menu. Upon digging there is a kernel.split_lock_mitigate variable that we can modify to turn off split lock mitigation. This is basically something to annoy developers (and users!) into optimising their game for Linux. https://wiki.archlinux.org/title/Steam/Game-specific_troubleshooting#Split_lock_detection_/_mitigation
