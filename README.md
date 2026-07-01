@@ -187,6 +187,9 @@ Make sure you have pipewire-alsa installed for this to work!
 I followed the guide to use multiple configuration files, which then broke keybindings and the whole config. To fix it, nano into programs.lua and change local to global. Even though all of the files are loaded into hyprland.lua for some reason each file can't see other file's local variables so we have to define them globally instead.
 https://github.com/hyprwm/Hyprland/discussions/14430
 
+### Cannot write to External exfat Drive
+To fix, change the permissions in /etc/fstab by adding uid, gid, fmask, dmask and umask instead of just defaults. Like so: `UUID=<UUID> /mnt/Meridian exfat uid=1000,gid=1000,fmask=0133,dmask=022,umask=000,nofail 0 0`
+
 ## Commands
 - `pacman -S <package>` -> Install a Package
 - `pacman -Syu` -> Upgrade all Packages
