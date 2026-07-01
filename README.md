@@ -196,6 +196,7 @@ https://github.com/hyprwm/Hyprland/discussions/14430
 - `pacman -Sc` -> Removes pacman cache
 - `pacman -Q` -> List installed packages
 - `pacman -Qe` -> List explicitly installed packages
+- `pacman -Qi <package>` -> Information about an installed package
 - `checkupdates` -> Check for updates in Pacman
 - `systemd-analyze` -> Shows how long booting takes
 - `systemd-analyze blame` -> Find the culprit if booting takes a long time
