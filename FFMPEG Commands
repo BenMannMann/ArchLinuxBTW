@@ -21,3 +21,10 @@ ffmpeg -ss 22:08 -to 23:25 -i "D:\Anime\Kyoukai no Kanata\Kyoukai no Kanata\[RH]
 
 ** Convert all .webm in a folder into mp4 **
 for %i in (*.webm) do ffmpeg -i "%i" "%~ni.mp4"
+
+
+** Convert all .m4a in a folder into flac **
+find . -name "*.m4a" -print0 | while IFS= read -r -d '' f; 
+do echo "Converting $f to flac"; 
+ffmpeg -i "$f" -c:a flac "${f%.m4a}.flac"; 
+done
