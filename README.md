@@ -200,6 +200,7 @@ To fix, change the permissions in /etc/fstab by adding uid, gid, fmask, dmask an
 - `pacman -Q` -> List installed packages
 - `pacman -Qe` -> List explicitly installed packages
 - `pacman -Qi <package>` -> Information about an installed package
+- `sudo pacman -U file:///var/cache/pacman/pkg/wine-staging-11.15-1-x86_64.pkg.tar.zst` -> Upgrade/Downgrade to a specific version from the pacman cache
 - `checkupdates` -> Check for updates in Pacman
 - `systemd-analyze` -> Shows how long booting takes
 - `systemd-analyze blame` -> Find the culprit if booting takes a long time
